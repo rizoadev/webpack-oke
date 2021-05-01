@@ -1,0 +1,27 @@
+doctype html
+html(lang="id" class="notranslate" translate="no")
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name="google" content="notranslate")
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    title Foundation ~ Lumecolors
+  body
+    .container
+        button.btn.btn-primary KOpet!
+         // Button trigger modal
+    button.btn.btn-primary(type='button' data-bs-toggle='modal' data-bs-target='#exampleModal')
+      | Launch demo modal
+    // Modal
+    #exampleModal.modal.fade(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .modal-header
+            h5#exampleModalLabel.modal-title Modal title
+            button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+          .modal-body
+            | ...
+          .modal-footer
+            button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Close
+            button.btn.btn-primary(type='button') Save changes

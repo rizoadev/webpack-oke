@@ -1,0 +1,60 @@
+//- video foundation
+.videobox {
+  border: solid 15px rgba(109, 90, 72, 0.4);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+//- transparent coklat
+.bgtrans1 {
+  border: 0 solid rgba(74, 55, 36, 0.78);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgba(74, 55, 36, 0.78);
+  font-size: 1.1rem;
+  line-height: 32px;
+  font-weight: 400;
+  color: #fff;
+  padding: 1rem;
+}
+
+//- keunggulan
+.crdk {
+  border: solid 2px #dfb992;
+  border-radius: 20px;
+}
+.crdxh {
+  color: #805e3b;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+// keunggulan
+.kglnlong {
+  color: #fbf0e5;
+  font-family: "Nunito", sans-serif;
+}
+.kglnlong h2 {
+  font-family: "Nunito", sans-serif;
+  color: #fbf0e5;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.kglnlong p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
